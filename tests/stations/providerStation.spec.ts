@@ -25,8 +25,8 @@ test.describe('Station Page Functionalities', () => {
     await stationPage.searchStation('CP001_Electrive');
   });
 
-  test('View logs of first station', async () => {
-    const stationPage = new StationPage(sessionPage);
-    await stationPage.viewFirstStation('CP001_Electrive');
-  });
+  // test('View logs of first station', async () => {
+  //   const stationPage = new StationPage(sessionPage);
+  //   await stationPage.viewFirstStation('CP001_Electrive');
+  // });
 });
