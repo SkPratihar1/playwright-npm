@@ -10,7 +10,8 @@
     "test:debug": "playwright test --debug",
     "test:headed": "playwright test --headed",
     "test:trace": "playwright test --trace on-first-retry",
-    "test:report": "playwright show-report"
+    "test:report": "playwright show-report",
+    "test:api": "npx playwright test --project='API Tests'"
   },
   "keywords": [],
   "author": "",
